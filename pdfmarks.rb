@@ -1,9 +1,10 @@
 require 'formula'
 
 class Pdfmarks < Formula
-  homepage 'https://bitbucket.org/alexreg/pdfmarks'
-  url 'https://bitbucket.org/alexreg/pdfmarks/get/v0.2.1.tar.gz'
-  sha256 '6e68b92418ed40046b71bbc0eb976b7e2e18cc91cb3b1fa14f4df5d0b3fbdf46'
+  homepage 'https://github.com/alexreg/pdfmarks'
+  url 'https://github.com/alexreg/pdfmarks/archive/v0.2.2.tar.gz'
+  sha256 'c2d8ca244f34d6bd936a4b7c23603b4b841d372bf46a2f0574bd80aa600ddb4a'
+  head 'https://github.com/alexreg/pdfmarks.git'
 
   depends_on 'ghostscript'
 
