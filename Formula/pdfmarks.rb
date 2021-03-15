@@ -1,8 +1,8 @@
 class Pdfmarks < Formula
   desc "Renumber pages of PDF files"
   homepage "https://github.com/alexreg/pdfmarks"
-  url "https://github.com/alexreg/pdfmarks/archive/v0.2.2.tar.gz"
-  sha256 "c2d8ca244f34d6bd936a4b7c23603b4b841d372bf46a2f0574bd80aa600ddb4a"
+  url "https://github.com/alexreg/pdfmarks/archive/v0.2.3.tar.gz"
+  sha256 "6b8fb1002c4edfcb3363b3f7701171da7540662f6aa5d2570296b165628a9a13"
   head "https://github.com/alexreg/pdfmarks.git"
 
   depends_on "ghostscript"
