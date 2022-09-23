@@ -1,6 +1,6 @@
 cask "dedrm" do
-  version "10.0.2"
-  sha256 "2009abe968460e41188454331901e62a57e459629b2da9d7088fe003bf3e8ce3"
+  version "10.0.3"
+  sha256 "8649e30efb0c26e9cca1131df4c9d02d51eccb5028d396cce857f0fa75a62849"
   url "https://github.com/noDRM/DeDRM_tools/releases/download/v#{version}/DeDRM_tools_#{version}.zip"
   name "dedrm"
   desc "DeDRM tools for e-books"
