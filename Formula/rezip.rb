@@ -4,6 +4,7 @@ class Rezip < Formula
   url "https://github.com/costerwi/rezip/archive/v1.0.0.tar.gz"
   sha256 "3684a3d7e6bc13cfb01df8310ee89951ac9836ca653d71229faa64524bcb6bf0"
   license "Apache-2.0"
+  revision 1
 
   depends_on "openjdk" => :build
 
