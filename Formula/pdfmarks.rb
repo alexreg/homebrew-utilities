@@ -3,6 +3,7 @@ class Pdfmarks < Formula
   homepage "https://github.com/alexreg/pdfmarks"
   url "https://github.com/alexreg/pdfmarks/archive/v0.2.3.tar.gz"
   sha256 "6b8fb1002c4edfcb3363b3f7701171da7540662f6aa5d2570296b165628a9a13"
+  revision 1
   head "https://github.com/alexreg/pdfmarks.git"
 
   depends_on "ghostscript"
