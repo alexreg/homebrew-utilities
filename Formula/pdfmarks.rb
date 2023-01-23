@@ -6,6 +6,12 @@ class Pdfmarks < Formula
   revision 1
   head "https://github.com/alexreg/pdfmarks.git"
 
+  bottle do
+    root_url "https://ghcr.io/v2/alexreg/dev"
+    sha256 cellar: :any_skip_relocation, monterey:     "fa183ccb4a7c251dc9e32774a38d546193a28797a57c33efb0b5be2508d35fc2"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "8162f8d7f9f27b3e209776d7961ccec14987316466121d935594053c0b8e2afd"
+  end
+
   depends_on "ghostscript"
 
   def install
