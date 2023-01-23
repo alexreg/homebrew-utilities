@@ -6,6 +6,12 @@ class Rezip < Formula
   license "Apache-2.0"
   revision 1
 
+  bottle do
+    root_url "https://ghcr.io/v2/alexreg/dev"
+    sha256 cellar: :any_skip_relocation, monterey:     "d750f0ed1db28b6965313827c2f2f192fcafd2a41c59da29b2d398e1d6041369"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "63ef3b006d56a4a327af64a3d595881326196cf7d5533a9b0be4b8b0aeb8d564"
+  end
+
   depends_on "openjdk"
 
   def install
