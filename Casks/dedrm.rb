@@ -1,6 +1,6 @@
 cask "dedrm" do
-  version "10.0.3"
-  sha256 "8649e30efb0c26e9cca1131df4c9d02d51eccb5028d396cce857f0fa75a62849"
+  version "10.0.9"
+  sha256 "d46e7ff94a46dc871eb9b7e639e6da1883823cd5a9d705d53f51bd9c251aabda"
 
   url "https://github.com/noDRM/DeDRM_tools/releases/download/v#{version}/DeDRM_tools_#{version}.zip"
   name "dedrm"
